@@ -1,4 +1,4 @@
-# Career Copilot
+# JARD Career Copilot
 
 A career profile manager plus AI resume/cover-letter generator, application
 tracker, and a chat assistant for interview prep, LinkedIn posts, and career
@@ -101,9 +101,3 @@ components/
   CareerCopilotApp.js     — the whole app (profile, generate, applications, chat)
 ```
 
-## Changing the model
-
-The model is set server-side in `app/api/anthropic/route.js`
-(`model: "claude-sonnet-5"`). Change it there if you want a different Claude
-model — see [docs.claude.com](https://docs.claude.com) for current model
-names and pricing.
