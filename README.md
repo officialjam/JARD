@@ -1,4 +1,4 @@
-# JARD Career Copilot
+# JARD 
 
 A career profile manager plus AI resume/cover-letter generator, application
 tracker, and a chat assistant for interview prep, LinkedIn posts, and career
@@ -47,7 +47,7 @@ in `.gitignore`, so your key won't get committed.
 ```bash
 git init
 git add .
-git commit -m "Career Copilot"
+git commit -m "JARD"
 git branch -M main
 git remote add origin https://github.com/<your-username>/<repo-name>.git
 git push -u origin main
