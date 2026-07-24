@@ -81,14 +81,6 @@ suggests (`npm audit fix --force`) would downgrade Next.js to version 9 —
 from 2020, before the App Router existed — which would break everything
 here. Leave it; it'll clear up once Next.js ships a patched point release.
 
-## Costs
-
-This calls the Claude API on generation and in Ask Copilot, which is
-pay-per-use on your Anthropic account — check
-[console.anthropic.com](https://console.anthropic.com) for current pricing
-and to fund the account. There's no per-user limit built into this app, so if
-you ever make it public, add your own rate limiting in
-`app/api/anthropic/route.js`.
 
 ## Project structure
 
